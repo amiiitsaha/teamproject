@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    height: 100vh; /* Make the container occupy full viewport height */ 
+  }
+  
+  .sidebar {
+    width: 200px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  position: fixed; /* Position the sidebar absolutely */
+  left: 0; /* Position the sidebar to the left */
+  top: 0; /* Position the sidebar at the top */
+  height: 100%; /* Make the sidebar fill the entire screen height */
+  }
+  .sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .sidebar li.active {
+    background-color: #ccc;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .search-bar {
+    display: flex;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .topbar{
+    display: flex;
+    margin-top: -30px;
+    margin-bottom: 20px;
+  }
